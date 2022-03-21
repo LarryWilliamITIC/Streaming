@@ -1,0 +1,84 @@
+html{ 
+    font-size: 62.5%;  
+}
+body{
+    font: 1.6rem sans-serif; 
+    margin: 0;  
+}
+h1,h2,h3,h4,p,ol,ul,figure,dd{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+
+
+
+body{
+    background-color: #c28c3a;
+    color: #FFF;
+}
+
+main{
+    margin: 0 10%;
+}
+
+section{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+header{
+    display: block;
+}
+
+
+header h1{
+    text-align: center;
+    position: relative;
+    padding-top: 3rem;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.image-cover{
+    display: grid;
+    margin-bottom: 1.0rem;
+    margin-top: 5.0rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7rem;
+    padding: 1rem 80px;
+}
+
+section p{
+    text-align: center;
+    margin-top: 10.0rem;
+
+
+}
+
+
+
+section img{
+    height: 100px;
+    width: 100px;
+}
+
+section a{
+    padding: 2.0rem;
+    background-color: rgb(8, 169, 243);
+}
+
+footer h2{
+    text-align: center;
+}
